@@ -23,7 +23,7 @@ def total_salary(path):
         print(f"Невідома помилка {e}")
         return None,None 
 def main():
-    tot,average=total_salary('/home/tupota/goit-algo-hw-04/text.txt' )
+    tot,average=total_salary('/home/tupota/goit-algo-hw-04/text.txt ' )
     print(f"Загальна сума заробітної плати: {tot}, Середня заробітна плата: {average}")
 
 if __name__=='__main__': 
